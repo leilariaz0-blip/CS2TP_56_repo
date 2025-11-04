@@ -1,5 +1,18 @@
+/**
+ *  Leila Riaz 240124058
+ *
+ */
+
 public class Math {
     public static void main(String[] args) {
         System.out.println("Team Project: Math class test");
+
+        // Test your function
+        System.out.println("Add: " + add(5, 9));
+    }
+
+    // Returns the sum of two integers
+    public static int add(int a, int b) {
+        return a + b;
     }
 }

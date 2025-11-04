@@ -1,26 +1,36 @@
-/**
- * Math class for Team Project
- * Developer: Leila Riaz  
- * University ID: 240124058
- * Function: This class contains a function that takes two integers and returns their sum.
- */
-
 public class Math {
+
+    /********************************
+    * Developer: Leila Riaz
+    * University ID: 240124058
+    * Function: This function takes two integers and returns their sum.
+    ********************************/
+    public static int Add(int a, int b) {
+        return a + b;
+    }
+
+    
+    /********************************
+    * Developer: 
+    * University ID: 
+    * Function: Returns the maximum of two integers.
+    ********************************/
+    public static int Max(int a, int b) {
+        return (a > b) ? a : b;
+    }
+
+    // and so on — each team member adds one function
+    public static int Min(int a, int b) { return (a < b) ? a : b; }
+    public static int Sub(int a, int b) { return a - b; }
+    public static int Multi(int a, int b) { return a * b; }
+    public static int Divide(int a, int b) { return a / b; }
+    public static int Power(int a, int b) { return (int)Math.pow(a, b); }
+    public static int Mod(int a, int b) { return a % b; }
 
     public static void main(String[] args) {
         System.out.println("Team Project: Math class test");
 
-        // Test your function
-        System.out.println("Add: " + add(5, 9));
-    }
-
-    /**
-     * This function takes two integers and returns their sum.
-     * @param a first integer
-     * @param b second integer
-     * @return the sum of a and b
-     */
-    public static int add(int a, int b) {
-        return a + b;
+        // Example test
+        System.out.println("Add(5, 9): " + Add(5, 9));
     }
 }

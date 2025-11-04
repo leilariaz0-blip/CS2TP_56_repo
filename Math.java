@@ -1,5 +1,13 @@
 /**
- *  Leila Riaz 240124058
+ *  *******************************
+* Developer: Leila Riaz  
+* University ID: 240124058
+* Function: This function takes two integers and returns their sum.  
+********************************/
+public static int Add(int x, int y) {
+    return x + y;
+}
+
  *
  */
 

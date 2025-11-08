@@ -27,6 +27,15 @@ public class Math {
     public static int Power(int a, int b) { return (int)Math.pow(a, b); }
     public static int Mod(int a, int b) { return a % b; }
 
+        /********************************
+    * Developer: [Daniel Nguyen]
+    * University ID: [230167678] 
+    * Function: Returns the average of two integers
+    ********************************/
+    public static int Average(int a, int b) {
+        return (a + b) / 2;
+    }
+
     public static void main(String[] args) {
         System.out.println("Team Project: Math class test");
 

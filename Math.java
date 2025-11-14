@@ -11,8 +11,8 @@ public class Math {
 
     
     /********************************
-    * Developer: 
-    * University ID: 
+    * Developer: Sakariya Hasan
+    * University ID: 240156244
     * Function: Returns the maximum of two integers.
     ********************************/
     public static int Max(int a, int b) {

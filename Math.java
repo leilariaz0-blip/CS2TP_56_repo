@@ -18,6 +18,14 @@ public class Math {
     public static int Max(int a, int b) {
         return (a > b) ? a : b;
     }
+/********************************
+* Developer: Abulay Sillah
+* University ID: 240274582s
+* Function: Returns the average of two integers.
+********************************/
+public static double Average(int a, int b) {
+    return (a + b) / 2.0;
+}
 
     // and so on — each team member adds one function
     public static int Min(int a, int b) { return (a < b) ? a : b; }
